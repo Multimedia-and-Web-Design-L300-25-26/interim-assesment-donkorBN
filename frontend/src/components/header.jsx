@@ -232,6 +232,16 @@ const DropdownContent = ({ menuKey }) => {
 	);
 };
 
+/* ── Disclaimer Banner ── */
+const DisclaimerBanner = () => (
+	<div className="bg-[#FFF9E6] border-b border-[#FFE58F] py-2 px-4 text-center">
+		<p className="text-[12px] sm:text-sm text-[#856404] font-medium">
+			⚠️ <strong>Educational Project:</strong> This is a school project for learning purposes only. 
+			Please <strong>do not</strong> use real details. Not affiliated with Coinbase.
+		</p>
+	</div>
+);
+
 /* ── Header ── */
 const Header = () => {
 	const [activeMenu, setActiveMenu]   = useState(null);
@@ -270,10 +280,12 @@ const Header = () => {
 	};
 
 	return (
-		<header
-			className="sticky top-0 z-50 bg-white border-b border-gray-10"
-			onMouseLeave={!searchActive ? handleLeave : undefined}
-		>
+		<>
+			<DisclaimerBanner />
+			<header
+				className="sticky top-0 z-50 bg-white border-b border-gray-10"
+				onMouseLeave={!searchActive ? handleLeave : undefined}
+			>
 			<Container>
 				<nav className="flex items-center justify-between h-16 gap-4">
 					{/* Left: Logo + Nav — always visible */}
@@ -408,6 +420,7 @@ const Header = () => {
 				{searchActive && <SearchDropdown query={searchQuery} />}
 			</AnimatePresence>
 		</header>
+		</>
 	);
 };
 
