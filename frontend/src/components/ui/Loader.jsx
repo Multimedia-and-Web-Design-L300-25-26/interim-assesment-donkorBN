@@ -1,10 +1,10 @@
 import Logo from './Logo';
 
-/* Coinbase full-screen loader — wordmark mono on dark bg */
+/* Crypto App full-screen loader — wordmark mono on dark bg */
 const Loader = ({ fullScreen = true }) => {
 	const content = (
 		<div className="flex items-center justify-center">
-			<div className="animate-[coinbase-pulse_1.6s_ease-in-out_infinite]">
+			<div className="animate-[crypto-app-pulse_1.6s_ease-in-out_infinite]">
 				<Logo height={36} className="brightness-0 invert" />
 			</div>
 		</div>

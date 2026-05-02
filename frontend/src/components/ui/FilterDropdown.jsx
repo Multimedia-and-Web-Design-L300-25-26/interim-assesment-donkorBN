@@ -15,7 +15,7 @@ const SearchIcon = () => (
 );
 
 /**
- * FilterDropdown — Coinbase-style pill dropdown with optional icon, search, and selection.
+ * FilterDropdown — Crypto App-style pill dropdown with optional icon, search, and selection.
  *
  * Props:
  * - label:       display text when nothing selected (e.g. "All assets")

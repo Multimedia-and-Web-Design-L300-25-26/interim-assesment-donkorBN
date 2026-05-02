@@ -35,7 +35,7 @@ const HeroSection = () => {
 								/>
 								<img
 									src="https://images.ctfassets.net/o10es7wu5gm1/4lbSrfvF333XkPz7WycixQ/afbeefb68eab9405594b2e9bfbb9a152/Hero__4_.png"
-									alt="Coinbase"
+									alt="Crypto App"
 									loading="eager"
 									width="1800"
 									height="1800"

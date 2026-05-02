@@ -17,7 +17,7 @@ const COLUMNS = [
 					{ label: 'Press',                    href: 'https://www.coinbase.com/press' },
 					{ label: 'Security',                 href: 'https://www.coinbase.com/security' },
 					{ label: 'Investors',                href: 'https://investor.coinbase.com/' },
-					{ label: 'Vendors',                  href: 'https://www.coinbase.com/vendors/vendors-at-coinbase' },
+					{ label: 'Vendors',                  href: 'https://www.coinbase.com/vendors/vendors-at-crypto-app' },
 					{ label: 'Legal & privacy',          href: 'https://www.coinbase.com/legal' },
 					{ label: 'Cookie policy',            href: 'https://www.coinbase.com/legal/cookie' },
 					{ label: 'Cookie preferences',       href: '#' },
@@ -29,7 +29,7 @@ const COLUMNS = [
 				links: [
 					{ label: 'Explore',                        href: 'https://www.coinbase.com/explore' },
 					{ label: 'Market statistics',              href: 'https://www.coinbase.com/market-stats' },
-					{ label: 'Coinbase Bytes newsletter',      href: 'https://www.coinbase.com/bytes' },
+					{ label: 'Crypto App Bytes newsletter',      href: 'https://www.coinbase.com/bytes' },
 					{ label: 'Crypto basics',                  href: 'https://www.coinbase.com/learn/crypto-basics' },
 					{ label: 'Tips & tutorials',               href: 'https://www.coinbase.com/learn/tips-and-tutorials' },
 					{ label: 'Crypto glossary',                href: 'https://www.coinbase.com/learn/crypto-glossary' },
@@ -53,7 +53,7 @@ const COLUMNS = [
 					{ label: 'Buy & sell',       href: 'https://www.coinbase.com/' },
 					{ label: 'Earn free crypto', href: 'https://www.coinbase.com/learning-rewards' },
 					{ label: 'Base App',         href: 'https://base.app' },
-					{ label: 'Coinbase One',     href: 'https://www.coinbase.com/one' },
+					{ label: 'Crypto App One',     href: 'https://www.coinbase.com/one' },
 					{ label: 'Debit Card',       href: 'https://www.coinbase.com/card' },
 				],
 			},
@@ -61,7 +61,7 @@ const COLUMNS = [
 				title: 'Businesses',
 				links: [
 					{ label: 'Asset Listings',    href: 'https://www.coinbase.com/listings' },
-					{ label: 'Coinbase Business', href: 'https://www.coinbase.com/business' },
+					{ label: 'Crypto App Business', href: 'https://www.coinbase.com/business' },
 					{ label: 'Payments',          href: 'https://www.coinbase.com/payments' },
 					{ label: 'Commerce',          href: 'https://www.coinbase.com/commerce' },
 					{ label: 'Token Manager',     href: 'https://www.coinbase.com/tokenmanager' },
@@ -118,11 +118,11 @@ const COLUMNS = [
 				links: [
 					{ label: 'Help center',         href: 'https://help.coinbase.com' },
 					{ label: 'Contact us',          href: 'https://help.coinbase.com/contact-us/' },
-					{ label: 'Create account',      href: 'https://help.coinbase.com/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account/' },
-					{ label: 'ID verification',     href: 'https://help.coinbase.com/coinbase/managing-my-account#identity-verification/' },
-					{ label: 'Account information', href: 'https://help.coinbase.com/coinbase/managing-my-account/' },
-					{ label: 'Payment methods',     href: 'https://help.coinbase.com/coinbase/getting-started#add-a-payment-method/' },
-					{ label: 'Account access',      href: 'https://help.coinbase.com/coinbase/managing-my-account/' },
+					{ label: 'Create account',      href: 'https://help.coinbase.com/crypto-app/getting-started/getting-started-with-crypto-app/create-a-crypto-app-account/' },
+					{ label: 'ID verification',     href: 'https://help.coinbase.com/crypto-app/managing-my-account#identity-verification/' },
+					{ label: 'Account information', href: 'https://help.coinbase.com/crypto-app/managing-my-account/' },
+					{ label: 'Payment methods',     href: 'https://help.coinbase.com/crypto-app/getting-started#add-a-payment-method/' },
+					{ label: 'Account access',      href: 'https://help.coinbase.com/crypto-app/managing-my-account/' },
 					{ label: 'Supported crypto',    href: 'https://help.coinbase.com/supported-crypto.html' },
 					{ label: 'Status',              href: 'https://status.coinbase.com' },
 				],
@@ -150,10 +150,10 @@ const COLUMNS = [
 ];
 
 const SOCIALS = [
-	{ label: 'X',         href: 'https://x.com/coinbase',                   icon: 'https://static-assets.coinbase.com/marketing/cdx/x-light.svg' },
-	{ label: 'LinkedIn',  href: 'https://www.linkedin.com/company/coinbase', icon: 'https://static-assets.coinbase.com/marketing/cdx/linkedin-light.svg' },
-	{ label: 'Instagram', href: 'https://www.instagram.com/coinbase/',       icon: 'https://static-assets.coinbase.com/marketing/cdx/instagram-light.svg' },
-	{ label: 'TikTok',    href: 'https://www.tiktok.com/@coinbase',          icon: 'https://static-assets.coinbase.com/marketing/cdx/tiktok-light.svg' },
+	{ label: 'X',         href: 'https://x.com/crypto-app',                   icon: 'https://static-assets.coinbase.com/marketing/cdx/x-light.svg' },
+	{ label: 'LinkedIn',  href: 'https://www.linkedin.com/company/crypto-app', icon: 'https://static-assets.coinbase.com/marketing/cdx/linkedin-light.svg' },
+	{ label: 'Instagram', href: 'https://www.instagram.com/crypto-app/',       icon: 'https://static-assets.coinbase.com/marketing/cdx/instagram-light.svg' },
+	{ label: 'TikTok',    href: 'https://www.tiktok.com/@crypto-app',          icon: 'https://static-assets.coinbase.com/marketing/cdx/tiktok-light.svg' },
 ];
 
 /* ── Sub-components ── */
@@ -176,10 +176,10 @@ const FooterSection = ({ title, links }) => (
 	</div>
 );
 
-const CoinbaseLogo = ({ height = 60 }) => (
+const Crypto AppLogo = ({ height = 60 }) => (
 	<img
 		src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/coinbaseLogoNavigation-4.svg"
-		alt="Coinbase"
+		alt="Crypto App"
 		height={height}
 		style={{ height: `${height}px`, width: 'auto', display: 'block' }}
 	/>
@@ -197,14 +197,14 @@ const Footer = () => {
 
 				{/* Logo — mobile only */}
 				<div className="mb-8 lg:hidden">
-					<CoinbaseLogo />
+					<Crypto AppLogo />
 				</div>
 
 				{/* Main columns row */}
 				<div className="flex flex-col lg:flex-row gap-10">
 					{/* Logo column — desktop only */}
 					<div className="hidden lg:flex flex-col shrink-0 w-[72px] pt-0.5">
-						<CoinbaseLogo />
+						<Crypto AppLogo />
 					</div>
 
 					{/* 4 content columns */}
@@ -227,12 +227,21 @@ const Footer = () => {
 								href={s.href}
 								target="_blank"
 								rel="noopener noreferrer"
-								title={`Coinbase ${s.label} page`}
+								title={`Crypto App ${s.label} page`}
 								className="opacity-100 hover:opacity-70 transition-opacity duration-150"
 							>
 								<img src={s.icon} alt={`${s.label} logo`} width={16} height={16} loading="lazy" />
 							</a>
 						))}
+					</div>
+
+					{/* Disclaimer Banner */}
+					<div className="bg-[#FFF9E6] border border-[#FFE58F] p-4 rounded-lg my-6">
+						<p className="text-[12px] sm:text-sm text-[#856404] font-medium text-center">
+							⚠️ <strong>Student Project Disclaimer:</strong> This website is a demonstration project created for educational purposes. 
+							It is <strong>not</strong> an actual financial platform and is <strong>not affiliated with Crypto App</strong>. 
+							Please do not enter real personal data, passwords, or financial information.
+						</p>
 					</div>
 
 					{/* Divider */}
@@ -243,7 +252,7 @@ const Footer = () => {
 						{/* Left: copyright + legal links */}
 						<div className="flex flex-wrap items-center gap-x-2 gap-y-1">
 							<p className="text-[0.8125rem] leading-5 text-gray-100 m-0">
-								© {new Date().getFullYear()} Coinbase
+								© {new Date().getFullYear()} Crypto App
 							</p>
 							<span className="text-gray-40 text-[0.8125rem]">•</span>
 							<a href="https://www.coinbase.com/legal/privacy" className="text-[0.8125rem] leading-5 text-gray-60 hover:text-gray-100 transition-colors">

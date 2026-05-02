@@ -109,7 +109,7 @@ function PreviewAddressStep({ file, onConfirm, onReupload }) {
 			<div className="w-full max-w-lg mx-auto">
 				<h1 className="text-3xl font-bold text-white mb-2">Verify your address</h1>
 				<h2 className="text-lg font-semibold text-white mb-4">Is this document easy to read?</h2>
-				<p className="text-[#8A919E] mb-6">Make sure that the address listed on your document and the address you entered on Coinbase match exactly.</p>
+				<p className="text-[#8A919E] mb-6">Make sure that the address listed on your document and the address you entered on Crypto App match exactly.</p>
 				<div className="flex flex-col items-center mb-8">
 					{file && file.type.startsWith('image') ? (
 						<img src={URL.createObjectURL(file)} alt="Uploaded document" className="max-w-full max-h-[400px] rounded-xl border border-[#23262B] mb-6" />
@@ -276,8 +276,14 @@ const StepEmail = ({ name, setName, email, setEmail, password, setPassword, onNe
 	<Shell>
 		<form onSubmit={(e) => { e.preventDefault(); if (name && email && password) onNext(); }}>
 			<h1 className="text-[1.75rem] font-bold text-white mb-2">Create your account</h1>
+			<div className="mb-6 p-4 bg-[#FFF9E6] border border-[#FFE58F] rounded-xl">
+				<p className="text-[13px] text-[#856404] font-medium text-center">
+					🛑 <strong>Demo App Only:</strong> This is a school project. 
+					Do <strong>not</strong> use your real email or a password you use for other sites.
+				</p>
+			</div>
 			<p className="text-[0.9375rem] text-[#8A919E] mb-6 leading-6">
-				Access all that Coinbase has to offer with a single account.
+				Access all that Crypto App has to offer with a single account.
 			</p>
 			
 			{error && (
@@ -494,7 +500,7 @@ const StepEmailOptIn = ({ onNext }) => (
 			/>
 			<h1 className="text-[1.75rem] font-bold text-white mb-6">Be the first to know</h1>
 			<p className="text-[0.9375rem] text-[#8A919E] mb-4 leading-6 max-w-sm">
-				Would you like to receive emails from Coinbase on price updates, product announcements, and trading insights we think you might be interested in?
+				Would you like to receive emails from Crypto App on price updates, product announcements, and trading insights we think you might be interested in?
 			</p>
 			<p className="text-[0.9375rem] text-[#8A919E] mb-8 leading-6 max-w-sm">
 				You can learn more and unsubscribe anytime via your account settings or our Support Portal.
@@ -515,7 +521,7 @@ const StepCountry = ({ citizenship, setCitizenship, residence, setResidence, onN
 		<form onSubmit={(e) => { e.preventDefault(); onNext(); }}>
 			<h1 className="text-[1.75rem] font-bold text-white mb-2">Where are you from?</h1>
 			<p className="text-[0.9375rem] text-[#8A919E] mb-6 leading-6">
-				Coinbase is <a href="#" className="underline text-white hover:text-[#0052FF]">legally required</a> to collect this information. If you&apos;re a citizen of more than one country, please pick one.
+				Crypto App is <a href="#" className="underline text-white hover:text-[#0052FF]">legally required</a> to collect this information. If you&apos;re a citizen of more than one country, please pick one.
 			</p>
 			<DarkSelect label="Citizenship" hint="As shown on your ID document" value={citizenship} onChange={(e) => setCitizenship(e.target.value)}>
 				<option value="GH">🇬🇭 Ghana</option>
@@ -556,7 +562,7 @@ const StepBirth = ({ city, setCity, country, setCountry, onNext }) => (
 		<form onSubmit={(e) => { e.preventDefault(); onNext(); }}>
 			<h1 className="text-[1.75rem] font-bold text-white mb-2">Enter your place of birth</h1>
 			<p className="text-[0.9375rem] text-[#8A919E] mb-6 leading-6">
-				Coinbase is legally required to collect this info.
+				Crypto App is legally required to collect this info.
 			</p>
 			<DarkInput label="City of birth" value={city} onChange={(e) => setCity(e.target.value)} placeholder="Accra" />
 			<DarkSelect label="Country of birth" value={country} onChange={(e) => setCountry(e.target.value)}>

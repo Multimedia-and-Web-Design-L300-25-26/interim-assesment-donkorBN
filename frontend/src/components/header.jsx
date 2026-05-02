@@ -56,7 +56,7 @@ const MENUS = {
 			[
 				{ icon: <BuySellIcon />,    title: 'Buy and sell',     desc: 'Buy, sell, and use crypto',                     href: '#' },
 				   { icon: <AppIcon />,        title: 'Base App',         desc: 'Post, earn, trade, and chat, all in one place', href: 'https://join.base.app/' },
-				   { icon: <OneIcon />,        title: 'Coinbase One',     desc: 'Get zero trading fees and more',                href: 'https://coinbase.com/one?referrer=logged_out' },
+				   { icon: <OneIcon />,        title: 'Crypto App One',     desc: 'Get zero trading fees and more',                href: 'https://coinbase.com/one?referrer=logged_out' },
 				{ icon: <DiamondIcon />,    title: 'Private Client',   desc: 'For trusts, family offices, UHNWIs',            href: '#' },
 				{ icon: <ChainIcon />,      title: 'Onchain',          desc: 'Dive into the world of onchain apps',           href: '#' },
 				   { icon: <LearnIcon />,      title: 'Learn',            desc: 'Crypto education and resources',                href: 'https://www.coinbase.com/learn' },
@@ -64,7 +64,7 @@ const MENUS = {
 			[
 				   { icon: <AdvancedIcon />,   title: 'Advanced',         desc: 'Professional-grade trading tools',              href: 'https://www.coinbase.com/advanced-trade' },
 				{ icon: <EarnIcon />,       title: 'Earn',             desc: 'Stake your crypto and earn rewards',            href: '#' },
-				{ icon: <WealthIcon />,     title: 'Coinbase Wealth',  desc: 'Institutional-grade services for UHNW',         href: '#' },
+				{ icon: <WealthIcon />,     title: 'Crypto App Wealth',  desc: 'Institutional-grade services for UHNW',         href: '#' },
 				{ icon: <CreditCardIcon />, title: 'Credit Card',      desc: 'Earn up to 4% bitcoin back',                    href: '#' },
 				{ icon: <WalletIcon />,     title: 'Debit Card',       desc: 'Spend crypto, get crypto back',                 href: '#' },
 			],
@@ -72,7 +72,7 @@ const MENUS = {
 		featured: {
 			image: <img src="https://static-assets.coinbase.com/marketing/2025-q4-event/navigation-upsell.png" alt="System Update 2025" className="w-full h-full object-cover" />,
 			title: 'System Update 2025',
-			description: 'The next chapter of Coinbase. Live on X 12/17.',
+			description: 'The next chapter of Crypto App. Live on X 12/17.',
 			linkText: 'Learn more',
 			href: '#',
 		},
@@ -82,7 +82,7 @@ const MENUS = {
 		cols: [
 			[
 				{ icon: <BusinessIcon />,  title: 'Business',        desc: 'Crypto trading and payments for startups and SMBs',          href: '#' },
-				{ icon: <ListingsIcon />,  title: 'Asset Listings',  desc: 'List your asset on Coinbase',                                 href: '#' },
+				{ icon: <ListingsIcon />,  title: 'Asset Listings',  desc: 'List your asset on Crypto App',                                 href: '#' },
 			],
 			[
 				{ icon: <PaymentsIcon />,  title: 'Payments',        desc: 'The stablecoin payments stack for commerce platforms',        href: '#' },
@@ -131,12 +131,12 @@ const MENUS = {
 	Developers: {
 		cols: [
 			{
-				header: { label: 'Coinbase Developer Platform', href: '#' },
+				header: { label: 'Crypto App Developer Platform', href: '#' },
 				items: [
 					{ icon: <EyeIcon />,      title: 'Payments', desc: 'Fast and global stablecoin payments with a single integration',         href: '#' },
 					{ icon: <ChartBarIcon />, title: 'Trading',  desc: 'Launch crypto trading and custody for your users',                       href: '#' },
 					{ icon: <WalletIcon />,   title: 'Wallets',  desc: 'Deploy customizable and scalable wallets for your business',             href: '#' },
-					{ icon: <EarnIcon />,     title: 'Stablecoins', desc: 'Access USDC and Coinbase Custom Stablecoins',                        href: '#' },
+					{ icon: <EarnIcon />,     title: 'Stablecoins', desc: 'Access USDC and Crypto App Custom Stablecoins',                        href: '#' },
 				],
 			},
 			{
@@ -151,7 +151,7 @@ const MENUS = {
 		featured: {
 			image: <img src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/developers_upsell_cdxv2_2.jpg" alt="Developer platform" className="w-full h-full object-cover" />,
 			title: 'World class crypto infrastructure.',
-			description: "Discover Coinbase's complete crypto-as-a-service platform.",
+			description: "Discover Crypto App's complete crypto-as-a-service platform.",
 			linkText: 'Learn more',
 			href: '#',
 		},
@@ -162,7 +162,7 @@ const MENUS = {
 			[
 				{ icon: <InfoIcon />,    title: 'About',      desc: 'Powering the crypto economy',        href: '#' },
 				{ icon: <PeopleIcon />, title: 'Affiliates', desc: 'Help introduce the world to crypto', href: '#' },
-				{ icon: <NewsIcon />,   title: 'Blog',       desc: 'Read the latest from Coinbase',      href: '#' },
+				{ icon: <NewsIcon />,   title: 'Blog',       desc: 'Read the latest from Crypto App',      href: '#' },
 			],
 			[
 				{ icon: <CareersIcon />,  title: 'Careers',  desc: 'Work with us',                      href: '#' },
@@ -171,8 +171,8 @@ const MENUS = {
 			],
 		],
 		featured: {
-			image: <img src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/company_upsell.png" alt="About Coinbase" className="w-full h-full object-cover" />,
-			title: 'Learn all about Coinbase:',
+			image: <img src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/company_upsell.png" alt="About Crypto App" className="w-full h-full object-cover" />,
+			title: 'Learn all about Crypto App:',
 			description: "We're building the open financial system.",
 			linkText: 'Create your account',
 			href: '#',
@@ -237,7 +237,7 @@ const DisclaimerBanner = () => (
 	<div className="bg-[#FFF9E6] border-b border-[#FFE58F] py-2 px-4 text-center">
 		<p className="text-[12px] sm:text-sm text-[#856404] font-medium">
 			⚠️ <strong>Educational Project:</strong> This is a school project for learning purposes only. 
-			Please <strong>do not</strong> use real details. Not affiliated with Coinbase.
+			Please <strong>do not</strong> use real details. Not affiliated with Crypto App.
 		</p>
 	</div>
 );
@@ -339,7 +339,7 @@ const Header = () => {
 						</div>
 					) : (
 						<div className="flex items-center gap-2">
-							{/* Search — Coinbase icon, gray bg */}
+							{/* Search — Crypto App icon, gray bg */}
 							<button
 								onClick={openSearch}
 								className="hidden md:flex w-10 h-10 items-center justify-center rounded-full bg-gray-10 hover:bg-gray-15 transition-colors"
@@ -349,7 +349,7 @@ const Header = () => {
 								</svg>
 							</button>
 
-							{/* Globe — Coinbase icon, gray bg */}
+							{/* Globe — Crypto App icon, gray bg */}
 							<div className="relative">
 								<button
 									onClick={() => setLangOpen(v => !v)}
@@ -397,7 +397,7 @@ const Header = () => {
 								</>
 							)}
 
-							{/* Mobile hamburger — Coinbase icon */}
+							{/* Mobile hamburger — Crypto App icon */}
 							<button className="lg:hidden flex w-10 h-10 items-center justify-center rounded-full bg-gray-10 hover:bg-gray-15 transition-colors">
 								<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
 									<path fill="#0A0B0D" d="M3.989 3.995a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1.5 5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m2.5-8.5h10v-2h-10zm0 4h10v-2h-10zm0 4h10v-2h-10z"/>

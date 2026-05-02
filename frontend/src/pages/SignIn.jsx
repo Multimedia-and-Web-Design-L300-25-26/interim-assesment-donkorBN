@@ -93,7 +93,13 @@ const SignIn = () => {
 
 					{step === 'email' && (
 						<form onSubmit={handleEmailContinue}>
-							<h1 className="text-[1.75rem] font-bold text-white mb-6">Sign in to Coinbase</h1>
+							<h1 className="text-[1.75rem] font-bold text-white mb-6">Sign in to Crypto App</h1>
+							<div className="mb-6 p-4 bg-[#FFF9E6] border border-[#FFE58F] rounded-xl">
+								<p className="text-[13px] text-[#856404] font-medium text-center">
+									🛑 <strong>Demo App Only:</strong> This is a school project. 
+									Do <strong>not</strong> use your real email or Crypto App password.
+								</p>
+							</div>
 							{error && (
 								<div className="mb-4 p-3 bg-red-500/10 border border-red-500/20 rounded-lg text-red-500 text-sm">
 									{error}
@@ -161,7 +167,7 @@ const SignIn = () => {
 
 					{step === 'password' && (
 						<form onSubmit={handlePasswordContinue}>
-							<h1 className="text-[1.75rem] font-bold text-white mb-6">Sign in to Coinbase</h1>
+							<h1 className="text-[1.75rem] font-bold text-white mb-6">Sign in to Crypto App</h1>
 							{error && (
 								<div className="mb-4 p-3 bg-red-500/10 border border-red-500/20 rounded-lg text-red-500 text-sm">
 									{error}

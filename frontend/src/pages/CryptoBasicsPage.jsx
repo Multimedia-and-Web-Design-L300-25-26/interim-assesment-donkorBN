@@ -218,7 +218,7 @@ const cryptoBasicsArticles = [
 	{
 		"description": "Learn how to earn interest on your savings or take out a loan using crypto as collateral",
 		"href": "https://www.coinbase.com/learn/crypto-basics/what-is-cefi",
-		"image": "https://images.ctfassets.net/q5ulk4bp65r7/5eUtgqyjyMWucoq39lnEus/c71d7398eb231c578245626019196596/coinbase-lend.png?w=768&fm=png",
+		"image": "https://images.ctfassets.net/q5ulk4bp65r7/5eUtgqyjyMWucoq39lnEus/c71d7398eb231c578245626019196596/crypto-app-lend.png?w=768&fm=png",
 		"label": "Key term",
 		"title": "What is CeFi?"
 	},

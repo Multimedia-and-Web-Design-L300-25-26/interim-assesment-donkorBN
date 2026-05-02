@@ -6,7 +6,7 @@ const StepEmail = ({ email, setEmail, onNext }) => (
     <form onSubmit={(e) => { e.preventDefault(); if (email.trim()) onNext(); }}>
       <h1 className="text-[1.75rem] font-bold text-white mb-2">Create your account</h1>
       <p className="text-[0.9375rem] text-[#8A919E] mb-6 leading-6">
-        Access all that Coinbase has to offer with a single account.
+        Access all that Crypto App has to offer with a single account.
       </p>
       <DarkInput label="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your email address" />
       <BlueBtn type="submit">Continue</BlueBtn>

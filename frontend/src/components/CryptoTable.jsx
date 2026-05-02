@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import api from '../api/axios';
 
-const tabs = ['Tradable', 'Top gainers', 'New on Coinbase'];
+const tabs = ['Tradable', 'Top gainers', 'New on Crypto App'];
 
 /* ── Helpers ── */
 const formatPrice = (price) => {
@@ -94,7 +94,7 @@ const CryptoTable = () => {
 			try {
 				let endpoint = '/crypto';
 				if (activeTab === 'Top gainers') endpoint = '/crypto/gainers';
-				if (activeTab === 'New on Coinbase') endpoint = '/crypto/new';
+				if (activeTab === 'New on Crypto App') endpoint = '/crypto/new';
 
 				const { data } = await api.get(endpoint);
 				setCoins(data);

@@ -6,7 +6,7 @@ const articles = [
 		href: 'https://www.coinbase.com/usdc',
 		title: 'USDC: The digital dollar for the global crypto economy',
 		description:
-			'Coinbase believes crypto will be part of the solution for creating an open financial system that is both more efficient and more equitable. We co-founded the Centre Consortium in 2018 to invest in the build of USDC, and since then it has become the second largest stablecoin by market capitalization.',
+			'Crypto App believes crypto will be part of the solution for creating an open financial system that is both more efficient and more equitable. We co-founded the Centre Consortium in 2018 to invest in the build of USDC, and since then it has become the second largest stablecoin by market capitalization.',
 		image:
 			'https://images.ctfassets.net/o10es7wu5gm1/2tI0D7cX30gXudggzQc3tr/b6181107533f98f9dcc64da96efacff8/0_4mVyVaU6yLa--GR_',
 		alt: 'Blue circle with USDC money symbol',

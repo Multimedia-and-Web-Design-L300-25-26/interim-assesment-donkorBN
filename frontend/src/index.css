@@ -183,7 +183,7 @@
     overflow: hidden;
 }
 
-@keyframes coinbase-pulse {
+@keyframes app-pulse {
 
     0%,
     100% {
