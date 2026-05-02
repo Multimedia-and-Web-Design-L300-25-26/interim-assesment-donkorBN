@@ -2,6 +2,9 @@
   command = "npm install --prefix frontend && npm run build --prefix frontend"
   publish = "frontend/dist"
 
+[build.environment]
+  SECRETS_SCAN_OMIT_PATHS = "node_modules/**, frontend/node_modules/**, frontend/dist/**"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
