@@ -40,7 +40,7 @@ export default function SubscribePopup({ onClose }) {
 								<div className="text-green-60 text-4xl">✓</div>
 							</div>
 							<h3 className="text-3xl font-display font-medium text-green-60">You have subscribed</h3>
-							<p className="text-gray-60 mt-2">Thanks for subscribing to Crypto App Bytes.</p>
+							<p className="text-gray-60 mt-2">Thanks for subscribing to CryptoApp Bytes.</p>
 							<button
 								onClick={onClose}
 								className="mt-6 w-full rounded-full bg-blue-60 px-8 py-3 font-semibold text-white transition-colors hover:bg-blue-70"
@@ -51,7 +51,7 @@ export default function SubscribePopup({ onClose }) {
 					) : (
 						<div className="flex flex-col items-center transition-opacity duration-500">
 							<h3 className="mb-2 text-3xl font-display font-medium text-black">
-								Keep learning with Crypto App Bytes
+								Keep learning with CryptoApp Bytes
 							</h3>
 							<p className="mb-6 text-gray-60 text-lg">
 								The most important crypto news, sent to your inbox.
@@ -74,7 +74,7 @@ export default function SubscribePopup({ onClose }) {
 								</button>
 							</form>
 							<p className="mt-6 text-xs text-gray-50 leading-relaxed">
-								By submitting your email address, you are signing up to receive Crypto App Bytes communications to your inbox. For information on how we use your data see <a href="#" className="text-blue-60 hover:underline">www.coinbase.com/legal/privacy</a>.
+								By submitting your email address, you are signing up to receive CryptoApp Bytes communications to your inbox. For information on how we use your data see <a href="#" className="text-blue-60 hover:underline">www.coinbase.com/legal/privacy</a>.
 							</p>
 						</div>
 					)}

@@ -573,7 +573,7 @@ const ExplorePage = () => {
 										Explore crypto
 									</h1>
 									<p className="text-body text-gray-60 mt-1 flex items-center gap-1">
-										Crypto App 50 Index is down <span className="text-red-60">↘ 1.23%</span> (24hrs)
+										CryptoApp 50 Index is down <span className="text-red-60">↘ 1.23%</span> (24hrs)
 										<svg className="w-4 h-4 text-gray-40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" /></svg>
 									</p>
 								</div>
@@ -832,7 +832,7 @@ const ExplorePage = () => {
 								<div className="py-8 md:py-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
 									<div className="flex-1">
 										<h2 className="text-3xl text-white mb-6 max-w-lg">
-											Create a Crypto App account to trade crypto. It's quick, easy, and secure.
+											Create a CryptoApp account to trade crypto. It's quick, easy, and secure.
 										</h2>
 										<Link to="/signup">
 											<Button variant="outline" size="lg" className="bg-white text-gray-100 border-white hover:bg-gray-5">
@@ -897,7 +897,7 @@ const ExplorePage = () => {
 								</div>
 							</div>
 
-							{/* New on Crypto App */}
+							{/* New on CryptoApp */}
 							<div>
 								<div className="flex items-center justify-between mb-3">
 									<h3 className="text-headline text-gray-100">New on Crypto App</h3>

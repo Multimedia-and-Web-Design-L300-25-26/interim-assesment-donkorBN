@@ -29,7 +29,7 @@ const COLUMNS = [
 				links: [
 					{ label: 'Explore',                        href: 'https://www.coinbase.com/explore' },
 					{ label: 'Market statistics',              href: 'https://www.coinbase.com/market-stats' },
-					{ label: 'Crypto App Bytes newsletter',      href: 'https://www.coinbase.com/bytes' },
+					{ label: 'CryptoApp Bytes newsletter',      href: 'https://www.coinbase.com/bytes' },
 					{ label: 'Crypto basics',                  href: 'https://www.coinbase.com/learn/crypto-basics' },
 					{ label: 'Tips & tutorials',               href: 'https://www.coinbase.com/learn/tips-and-tutorials' },
 					{ label: 'Crypto glossary',                href: 'https://www.coinbase.com/learn/crypto-glossary' },
@@ -53,7 +53,7 @@ const COLUMNS = [
 					{ label: 'Buy & sell',       href: 'https://www.coinbase.com/' },
 					{ label: 'Earn free crypto', href: 'https://www.coinbase.com/learning-rewards' },
 					{ label: 'Base App',         href: 'https://base.app' },
-					{ label: 'Crypto App One',     href: 'https://www.coinbase.com/one' },
+					{ label: 'CryptoApp One',     href: 'https://www.coinbase.com/one' },
 					{ label: 'Debit Card',       href: 'https://www.coinbase.com/card' },
 				],
 			},
@@ -61,7 +61,7 @@ const COLUMNS = [
 				title: 'Businesses',
 				links: [
 					{ label: 'Asset Listings',    href: 'https://www.coinbase.com/listings' },
-					{ label: 'Crypto App Business', href: 'https://www.coinbase.com/business' },
+					{ label: 'CryptoApp Business', href: 'https://www.coinbase.com/business' },
 					{ label: 'Payments',          href: 'https://www.coinbase.com/payments' },
 					{ label: 'Commerce',          href: 'https://www.coinbase.com/commerce' },
 					{ label: 'Token Manager',     href: 'https://www.coinbase.com/tokenmanager' },
@@ -176,7 +176,7 @@ const FooterSection = ({ title, links }) => (
 	</div>
 );
 
-const Crypto AppLogo = ({ height = 60 }) => (
+const CryptoAppLogo = ({ height = 60 }) => (
 	<img
 		src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/coinbaseLogoNavigation-4.svg"
 		alt="Crypto App"
@@ -197,14 +197,14 @@ const Footer = () => {
 
 				{/* Logo — mobile only */}
 				<div className="mb-8 lg:hidden">
-					<Crypto AppLogo />
+					<CryptoAppLogo />
 				</div>
 
 				{/* Main columns row */}
 				<div className="flex flex-col lg:flex-row gap-10">
 					{/* Logo column — desktop only */}
 					<div className="hidden lg:flex flex-col shrink-0 w-[72px] pt-0.5">
-						<Crypto AppLogo />
+						<CryptoAppLogo />
 					</div>
 
 					{/* 4 content columns */}
@@ -227,7 +227,7 @@ const Footer = () => {
 								href={s.href}
 								target="_blank"
 								rel="noopener noreferrer"
-								title={`Crypto App ${s.label} page`}
+								title={`CryptoApp ${s.label} page`}
 								className="opacity-100 hover:opacity-70 transition-opacity duration-150"
 							>
 								<img src={s.icon} alt={`${s.label} logo`} width={16} height={16} loading="lazy" />

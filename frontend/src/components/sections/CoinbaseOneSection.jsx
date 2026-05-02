@@ -29,7 +29,7 @@ const Crypto AppOneSection = () => {
 						<div className="w-full">
 							<img
 								src="https://images.ctfassets.net/o10es7wu5gm1/4CyfFj8M0X8tKnzh8AgdxT/f0fa52750499d9b1691f62880906ff3e/zero_fees_us.png?fm=avif&w=1320&h=1320&q=65"
-								alt="Crypto App One mobile app"
+								alt="CryptoApp One mobile app"
 								className="rounded-3xl shadow-elevation-2 w-full h-auto"
 							/>
 						</div>

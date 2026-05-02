@@ -26,7 +26,7 @@ export default function LearnPage() {
 	const popularArticles = [
 		{ title: 'What is cryptocurrency?', label: 'Beginner\'s Guide' },
 		{ title: 'How to earn crypto rewards', label: 'Getting Started' },
-		{ title: 'How to add crypto to your Crypto App Wallet', label: 'Getting Started' },
+		{ title: 'How to add crypto to your CryptoApp Wallet', label: 'Getting Started' },
 		{ title: 'Tax forms, explained: A guide to U.S. tax forms and crypto reports', label: 'Your crypto' },
 		{ title: 'Beginner’s guide to dapps', label: 'Getting Started' },
 		{ title: 'Everything you need to know about the first-ever U.S. Bitcoin ETF', label: 'Market Update' }
@@ -81,10 +81,10 @@ export default function LearnPage() {
 	];
 
 	const allThingsWallet = [
-		{ label: "Wallet", title: "What’s the difference between Crypto App and Crypto App Wallet?", description: "And how can a wallet help me access NFTs or DeFi? Your self-custody wallet questions, answered", image: "https://images.ctfassets.net/q5ulk4bp65r7/3mfq3iIdYW3CDfWoh5vm9j/e79252903418650aa29f66ee313ef44e/How_to_Crypto App_Wallet_Op1-B.png?w=768&fm=png", href: "#" },
+		{ label: "Wallet", title: "What’s the difference between CryptoApp and CryptoApp Wallet?", description: "And how can a wallet help me access NFTs or DeFi? Your self-custody wallet questions, answered", image: "https://images.ctfassets.net/q5ulk4bp65r7/3mfq3iIdYW3CDfWoh5vm9j/e79252903418650aa29f66ee313ef44e/How_to_Crypto App_Wallet_Op1-B.png?w=768&fm=png", href: "#" },
 		{ label: "Video Tutorial", title: "How to set up a crypto wallet", description: "Learn how to setup and get started with a crypto wallet.", image: "https://images.ctfassets.net/q5ulk4bp65r7/5wgZmGhDLxwejh5MDDxRAn/aa73d7119d45e95ab417b9ae5e5e8f56/Video_02.png?w=768&fm=png", href: "#" },
-		{ label: "Getting Started", title: "How to add crypto to your Crypto App Wallet", description: "A quick guide on how to add crypto to your Crypto App self-custody wallet.", image: "https://images.ctfassets.net/q5ulk4bp65r7/3G50jPNvtkBsSz7we9TaxK/a50e3a2103bad2af0355644349e57476/how_to_fund_crypto-app_wallet.png?w=768&fm=png", href: "#" },
-		{ label: "Wallet", title: "How to send or receive crypto using Crypto App Wallet", description: "Crypto App Wallet helps you unlock one of the most significant features of crypto: the ability to send or receive peer-to-peer transfers without any financial intermediaries.", image: "https://images.ctfassets.net/q5ulk4bp65r7/4ktmMla57tgU3ZYleBOlLm/71ef298196ffcf1d1eb6d2b43abe49d4/Learn_Illustration_How_to_Send_Crypto.png?w=768&fm=png", href: "#" }
+		{ label: "Getting Started", title: "How to add crypto to your CryptoApp Wallet", description: "A quick guide on how to add crypto to your CryptoApp self-custody wallet.", image: "https://images.ctfassets.net/q5ulk4bp65r7/3G50jPNvtkBsSz7we9TaxK/a50e3a2103bad2af0355644349e57476/how_to_fund_crypto-app_wallet.png?w=768&fm=png", href: "#" },
+		{ label: "Wallet", title: "How to send or receive crypto using CryptoApp Wallet", description: "CryptoApp Wallet helps you unlock one of the most significant features of crypto: the ability to send or receive peer-to-peer transfers without any financial intermediaries.", image: "https://images.ctfassets.net/q5ulk4bp65r7/4ktmMla57tgU3ZYleBOlLm/71ef298196ffcf1d1eb6d2b43abe49d4/Learn_Illustration_How_to_Send_Crypto.png?w=768&fm=png", href: "#" }
 	];
 
 	return (

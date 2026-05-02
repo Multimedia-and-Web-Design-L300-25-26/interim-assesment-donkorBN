@@ -23,7 +23,7 @@ const AdvancedTraderSection = () => {
 							Powerful tools, designed for the advanced trader.
 						</h2>
 						<p className="text-body text-gray-40 mb-8 max-w-lg">
-							Powerful analytical tools with the safety and security of Crypto App deliver the ultimate trading experience. Tap into sophisticated charting capabilities, real-time order books, and deep liquidity across hundreds of markets.
+							Powerful analytical tools with the safety and security of CryptoApp deliver the ultimate trading experience. Tap into sophisticated charting capabilities, real-time order books, and deep liquidity across hundreds of markets.
 						</p>
 						<Button variant="secondary" size="md" className="!bg-black !text-white hover:!bg-gray-80">
 							Start trading

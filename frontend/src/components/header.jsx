@@ -56,7 +56,7 @@ const MENUS = {
 			[
 				{ icon: <BuySellIcon />,    title: 'Buy and sell',     desc: 'Buy, sell, and use crypto',                     href: '#' },
 				   { icon: <AppIcon />,        title: 'Base App',         desc: 'Post, earn, trade, and chat, all in one place', href: 'https://join.base.app/' },
-				   { icon: <OneIcon />,        title: 'Crypto App One',     desc: 'Get zero trading fees and more',                href: 'https://coinbase.com/one?referrer=logged_out' },
+				   { icon: <OneIcon />,        title: 'CryptoApp One',     desc: 'Get zero trading fees and more',                href: 'https://coinbase.com/one?referrer=logged_out' },
 				{ icon: <DiamondIcon />,    title: 'Private Client',   desc: 'For trusts, family offices, UHNWIs',            href: '#' },
 				{ icon: <ChainIcon />,      title: 'Onchain',          desc: 'Dive into the world of onchain apps',           href: '#' },
 				   { icon: <LearnIcon />,      title: 'Learn',            desc: 'Crypto education and resources',                href: 'https://www.coinbase.com/learn' },
@@ -64,7 +64,7 @@ const MENUS = {
 			[
 				   { icon: <AdvancedIcon />,   title: 'Advanced',         desc: 'Professional-grade trading tools',              href: 'https://www.coinbase.com/advanced-trade' },
 				{ icon: <EarnIcon />,       title: 'Earn',             desc: 'Stake your crypto and earn rewards',            href: '#' },
-				{ icon: <WealthIcon />,     title: 'Crypto App Wealth',  desc: 'Institutional-grade services for UHNW',         href: '#' },
+				{ icon: <WealthIcon />,     title: 'CryptoApp Wealth',  desc: 'Institutional-grade services for UHNW',         href: '#' },
 				{ icon: <CreditCardIcon />, title: 'Credit Card',      desc: 'Earn up to 4% bitcoin back',                    href: '#' },
 				{ icon: <WalletIcon />,     title: 'Debit Card',       desc: 'Spend crypto, get crypto back',                 href: '#' },
 			],
@@ -131,12 +131,12 @@ const MENUS = {
 	Developers: {
 		cols: [
 			{
-				header: { label: 'Crypto App Developer Platform', href: '#' },
+				header: { label: 'CryptoApp Developer Platform', href: '#' },
 				items: [
 					{ icon: <EyeIcon />,      title: 'Payments', desc: 'Fast and global stablecoin payments with a single integration',         href: '#' },
 					{ icon: <ChartBarIcon />, title: 'Trading',  desc: 'Launch crypto trading and custody for your users',                       href: '#' },
 					{ icon: <WalletIcon />,   title: 'Wallets',  desc: 'Deploy customizable and scalable wallets for your business',             href: '#' },
-					{ icon: <EarnIcon />,     title: 'Stablecoins', desc: 'Access USDC and Crypto App Custom Stablecoins',                        href: '#' },
+					{ icon: <EarnIcon />,     title: 'Stablecoins', desc: 'Access USDC and CryptoApp Custom Stablecoins',                        href: '#' },
 				],
 			},
 			{
@@ -339,7 +339,7 @@ const Header = () => {
 						</div>
 					) : (
 						<div className="flex items-center gap-2">
-							{/* Search — Crypto App icon, gray bg */}
+							{/* Search — CryptoApp icon, gray bg */}
 							<button
 								onClick={openSearch}
 								className="hidden md:flex w-10 h-10 items-center justify-center rounded-full bg-gray-10 hover:bg-gray-15 transition-colors"
@@ -349,7 +349,7 @@ const Header = () => {
 								</svg>
 							</button>
 
-							{/* Globe — Crypto App icon, gray bg */}
+							{/* Globe — CryptoApp icon, gray bg */}
 							<div className="relative">
 								<button
 									onClick={() => setLangOpen(v => !v)}
@@ -397,7 +397,7 @@ const Header = () => {
 								</>
 							)}
 
-							{/* Mobile hamburger — Crypto App icon */}
+							{/* Mobile hamburger — CryptoApp icon */}
 							<button className="lg:hidden flex w-10 h-10 items-center justify-center rounded-full bg-gray-10 hover:bg-gray-15 transition-colors">
 								<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
 									<path fill="#0A0B0D" d="M3.989 3.995a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1.5 5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m2.5-8.5h10v-2h-10zm0 4h10v-2h-10zm0 4h10v-2h-10z"/>

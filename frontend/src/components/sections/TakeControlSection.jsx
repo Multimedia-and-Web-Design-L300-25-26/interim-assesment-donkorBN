@@ -90,7 +90,7 @@ const TakeControlSection = () => {
 								/>
 								<img
 									src="https://images.ctfassets.net/o10es7wu5gm1/3Ib1lnukt8MvV4bDjH2jm7/00bd55a880ce264f3b77253b837760b2/image.png"
-									alt="Crypto App Homepage Crypto Circle"
+									alt="CryptoApp Homepage Crypto Circle"
 									loading="eager"
 									width="4256"
 									height="3200"

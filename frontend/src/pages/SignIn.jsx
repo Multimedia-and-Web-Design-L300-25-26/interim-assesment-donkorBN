@@ -97,7 +97,7 @@ const SignIn = () => {
 							<div className="mb-6 p-4 bg-[#FFF9E6] border border-[#FFE58F] rounded-xl">
 								<p className="text-[13px] text-[#856404] font-medium text-center">
 									🛑 <strong>Demo App Only:</strong> This is a school project. 
-									Do <strong>not</strong> use your real email or Crypto App password.
+									Do <strong>not</strong> use your real email or CryptoApp password.
 								</p>
 							</div>
 							{error && (

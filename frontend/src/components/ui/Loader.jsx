@@ -1,6 +1,6 @@
 import Logo from './Logo';
 
-/* Crypto App full-screen loader — wordmark mono on dark bg */
+/* CryptoApp full-screen loader — wordmark mono on dark bg */
 const Loader = ({ fullScreen = true }) => {
 	const content = (
 		<div className="flex items-center justify-center">
