@@ -8,6 +8,9 @@ import connectDB from './config/db.js';
 dotenv.config();
 
 // Connect to database
+console.log("--- STARTING SERVER ---");
+console.log("MONGODB_URI present:", !!process.env.MONGODB_URI);
+console.log("PORT:", process.env.PORT || 5001);
 connectDB();
 
 const app = express();
