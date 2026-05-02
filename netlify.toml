@@ -4,6 +4,7 @@
 
 [build.environment]
   SECRETS_SCAN_OMIT_PATHS = "node_modules/**, frontend/node_modules/**, frontend/dist/**"
+  SECRETS_SCAN_OMIT_KEYS = "PORT, NODE_ENV"
 
 [[redirects]]
   from = "/*"
