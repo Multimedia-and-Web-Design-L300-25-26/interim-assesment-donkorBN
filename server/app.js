@@ -40,7 +40,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Explicitly handle preflight requests
-app.options('*', cors());
+app.options('/*', cors());
 app.use(express.json());
 app.use(cookieParser());
 
