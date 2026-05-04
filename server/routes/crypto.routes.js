@@ -4,7 +4,7 @@ import {
   getGainerCryptos,
   getNewCryptos,
   createCrypto
-} from '../controllers/cryptoController.js';
+} from '../controllers/crypto.controller.js';
 
 const router = express.Router();
 
