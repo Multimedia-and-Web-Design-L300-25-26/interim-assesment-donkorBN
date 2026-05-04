@@ -13,34 +13,16 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-// CORS configuration with logging for debugging
-const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:5174',
-  'https://coinbase-nana-frontend.netlify.app',
-  'https://donkorbn-crypto-project.netlify.app',
-  'https://donkorbn-crypto-project.netlify.app/'
-];
-
+// Permissive CORS for the specific Netlify frontend
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow all origins for debugging, especially Netlify
-    if (!origin || origin.includes('netlify.app') || origin.includes('localhost')) {
-      callback(null, true);
-    } else {
-      callback(null, true); // Allow all for now to fix the blocker
-    }
-  },
+  origin: 'https://donkorbn-crypto-project.netlify.app',
   credentials: true,
   optionsSuccessStatus: 200
 }));
 
-// Manual CORS fallback
+// Manual CORS fallback for extra safety
 app.use((req, res, next) => {
-  const origin = req.headers.origin;
-  if (origin && (origin.includes('netlify.app') || origin.includes('localhost'))) {
-    res.header('Access-Control-Allow-Origin', origin);
-  }
+  res.header('Access-Control-Allow-Origin', 'https://donkorbn-crypto-project.netlify.app');
   res.header('Access-Control-Allow-Credentials', 'true');
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,UPDATE,OPTIONS');
   res.header('Access-Control-Allow-Headers', 'X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept, Observe, Authorization');
@@ -50,6 +32,11 @@ app.use((req, res, next) => {
   } else {
     next();
   }
+});
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', message: 'API is running', timestamp: new Date() });
 });
 
 // Explicitly handle preflight requests
