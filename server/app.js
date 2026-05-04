@@ -19,9 +19,11 @@ app.use(cors({
     'http://localhost:5173', 
     'http://localhost:5174', 
     'https://coinbase-nana-frontend.netlify.app',
-    'https://donkorbn-crypto-project.netlify.app'
+    'https://donkorbn-crypto-project.netlify.app',
+    'https://donkorbn-crypto-project.netlify.app/'
   ],
-  credentials: true
+  credentials: true,
+  optionsSuccessStatus: 200
 }));
 app.use(express.json());
 app.use(cookieParser());
